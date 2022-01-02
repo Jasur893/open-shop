@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --not: "Noto+Sans"
+}
+
+body {
+  font-family: var(--not);
+}
+
+/* header */
+.header__tools {
+  height: 50px;
+}
+
+.end__navbar{
+  height: 56px;
+}
+
+.header__tools>button {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.header__navbars {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  flex-wrap: wrap !important;
+  gap: 15px;
+  position: relative;
+}
+
+.dropdown-menu_custommenu {
+  position: absolute !important;
+  top: 0;
+  z-index: 50 !important;
+}
+
+.dropdown-menu_customm {
+  width: min-content;
+  height: min-content;
+}
+
+.header-navbars_item>a {
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-navbars_item>a::after {
+  display: none !important;
+}
+
+.header-drapdown__content {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 20px;
+  gap: 40px;
+}
+
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-item_spanbig {
+  text-shadow: 0 0 1px #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* header end */
+/* main start */
+.carusel__section {
+  margin-top: 50px;
+}
+
+.carusel-block__custom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.carusel-block__custom>.carousel__info {
+  width: 45%;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carousel__text {
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 4.37rem;
+  margin-top: 3.7rem;
+  margin-bottom: 1.87rem;
+  /* margin-left: 55%; */
+  color: #313131;
+  
+}
+
+.caruselbtn{
+  margin-left:  30%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* karusel end */
+.blue-bg{
+  background: #F1F1F1;
+}
+
+.sale-section__h3 {
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  width: 4.375rem; 
+  height: 4.375rem;
+  color: white;
+  border-radius: 50%;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.sale-section__p {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.9rem;
+  margin-left: 1.25rem;
+  font-size: 1.5rem;
+}
+
+
+.sale-section__p-p {
+  position: absolute;
+  top: 0;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  font-size: 1.25rem;
+}
+
+.sale-section__h3h3{
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0%;
+  width: 4.375rem;
+  height: 4.375rem;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.margin-top{
+  margin-top: 2px;
+}
+/* Sale end */
+
+/* card start */
+.card-img__height{
+  height: 200px;
+}
+
+.card__width{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* xbox */
+.xbox__section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.xbox__info{
+  width: 45%;
+  height: 100%;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.xbox__text{
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.87rem;
+  /* margin-left: 55%; */
+  color: #313131;
+}
+/* xbox end */
+
+
+/* index 3 */
+
+.information__content{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info__h3{
+  font-size: 27px;
+
+}
+
+.info__h5, .inf0__h4 {
+  font-size: 22px;
+}
+
+.info__list{
+  font-size: 14px;
+}
+
+/* playstation Vr */
+.playsvr__inf{
+  width: 45%;
+}
+
+.vplatsvr__text{
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+

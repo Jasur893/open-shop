@@ -1,0 +1,253 @@
+@media (max-width: 992px) {
+  .carusel-block__custom {
+    margin-bottom: 50px !important;
+  }
+
+  .psp-logo{
+    width: 200px;
+  }
+
+  .xbox__text{
+    font-size: 2rem;
+  }
+
+  .xbox__btn{
+    width: 80px;
+    font-size: 10px;
+  }
+
+  .applexan{
+    width: 70% !important;
+  }
+
+  .information__content{
+    flex-wrap: wrap;
+  }
+  
+  .photo__section{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inform{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .playsvr__title{
+    font-size: 30px;
+  }
+
+  .vplatsvr__text{
+    font-size: 20px;
+  }
+
+  .play__btn{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 991px){
+  .play__info>h4{
+    font-size: 20px;
+  }
+  .play__info>p{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .play__link>a{
+    font-size: 12px;
+  }
+
+  .playsvr__title{
+    font-size: 20px;
+  }
+
+  .vplatsvr__text{
+    font-size: 15px;
+  }
+
+  .play__btn{
+    font-size: 8px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .sale-section__h3{
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .sale-section__h3h3{
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .sale-section__p{
+    font-size: 1rem;
+
+  }
+
+  .sale-section__p-p{
+    font-size: 1rem;
+    margin-top: 0.8rem;
+  }
+
+  .psp-logo{
+    width: 80px !important;
+  }
+
+  .xbox__text{
+    font-size: 1rem !important;
+  }
+
+  .xbox__btn{
+    width: 60px !important;
+    font-size: 5px !important;
+  }
+  
+  .footer__content{
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 650px){
+  .carousel__text{
+    font-size: 1.5rem ;
+    line-height: 3rem ;
+  }
+
+  .caruselbtn{
+    width: 100px;
+    font-size: 0.8rem;
+  }
+
+  .sale-btn-respon{
+    height: 50% !important;
+  }
+
+  .sale__btn{
+    font-size: 0.6rem !important;
+  }
+
+  .play__info>h4{
+    font-size: 14px;
+  }
+  .play__info>p{
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .play__link>a{
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 577px){
+  .start__navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .sale-section__h3{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-top: 0.3rem;
+    font-size: 0.5rem !important;
+  }
+
+  .sale-section__h3h3{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-bottom: 0.3rem;
+    font-size: 0.5rem !important;
+  }
+
+  .sale-section__p{
+    font-size: 0.7rem !important;
+    margin-bottom: 0.7rem;
+  }
+
+  .sale-section__p-p{
+    font-size: 0.7rem !important;
+    margin-top: 0.4rem !important;
+  }
+  
+  .ghost-xbox{
+      width: 100%;
+  }
+
+  .photo__section{
+    flex-direction: column;
+  }
+
+  .smal-photo{
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+}
+@media (max-width: 560px) {
+  .playsvr__title{
+    font-size: 15px;
+  }
+
+  .vplatsvr__text{
+    font-size: 10px;
+  }
+
+  .play__btn{
+    font-size: 6px;
+  }
+}
+
+
+@media (max-width: 500px){
+  .playstation{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 415px){
+    .carousel__text{
+      font-size: 1rem !important;
+      line-height: 1.4rem !important;
+    }
+  
+    .caruselbtn{
+      width: 80px !important;
+      font-size: 0.5rem !important;    
+    }
+  
+    .sale-section__p{
+      font-size: 0.7rem !important;
+      margin-bottom: 0.2rem !important;
+    }
+  
+  } 
+  
+
+  
+
+  
+  
+
+  
+  
